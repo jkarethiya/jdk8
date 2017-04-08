@@ -26,7 +26,7 @@ public class LambdaSorting {
 		
 		Collections.sort(developers, new Comparator<Developer>() {
 			public int compare(Developer d1, Developer d2) {
-				return d1.getId() - d2.getAge();
+				return d1.getId() - d2.getId();
 			}
 		});
 		
